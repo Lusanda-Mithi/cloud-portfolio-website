@@ -50,4 +50,31 @@ ul {
 li {
   margin-bottom: 8px;
 }
-  
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background: #FFFFFF;
+}
+
+nav h2 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+  nav a {
+      text-decoration: none;
+      color ; #2D3436;
+      font-weight: bold;
+  }
+
+nav a:hover {
+    text-decoration: underline;
+}
